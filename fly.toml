@@ -16,9 +16,6 @@ primary_region = 'hkg'
   min_machines_running = 0
   processes = ['app']
 
-[env]
-  SESSION_SECRET = "of_course_i_still_love_you"
-
 [[vm]]
   memory = '1gb'
   cpu_kind = 'shared'
