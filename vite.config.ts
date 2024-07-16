@@ -3,6 +3,9 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  define: {
+    'process.env': process.env
+  },
   plugins: [
     remix({
       future: {
