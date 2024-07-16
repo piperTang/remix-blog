@@ -6,10 +6,8 @@ export default defineConfig({
   // define: {
   //   'process.env': process.env
   // },
-  base: "/remix-blog/",
   plugins: [
     remix({
-      basename: "/remix-blog/",
       future: {
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,
